@@ -33,8 +33,8 @@ Download <a target="_blank" href="https://github.com/ashiishme/wordpress-server"
 Install WordPress on your server and complete all setup.
 
 Upload wordpress-server repository in your WordPress theme directory. 
-- your-wp-dir > wp-content > themes
+- `your-wp-dir > wp-content > themes`
 
 Activate this theme.
 
-In your angular api service. Update the url for your api.
+In Angular blog-api.service file. Update the URL for your api.

@@ -1,0 +1,42 @@
+
+.ashiish-single-post {
+	width: 90%;
+	margin: 2rem auto 0 auto;
+}
+
+.single-thumb {
+	margin: 2rem auto;
+}
+
+.single-thumb img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.single-title h1 {
+	font-size: 2.3rem;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.single-content {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+p {
+	line-height: 2;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.single-thumb img {
+ 		width: 100%;
+ 		height: 250px;
+ 	}
+
+}

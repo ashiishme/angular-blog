@@ -1,0 +1,259 @@
+.page-content {
+ 	margin-top: 3rem;
+ }
+
+ .ashiish-blog-item {
+ 	padding: 1rem 0;
+ 	box-shadow: 0px 0px 9px rgba(0,0,0,0.2);
+ 	border-radius: 8px;
+ 	margin-bottom: 2rem;
+ }
+
+ .post-thumb {
+ 	padding: 1rem 0;
+ }
+
+ .post-thumb img {
+ 	width: 100%;
+ 	height: 200px;
+ 	object-fit: cover;
+ }
+
+ .post-title {
+ 	padding: 0 1rem 1rem 1rem;
+ }
+
+ .entry-title {
+ 	font-size: 1.1rem;
+ 	font-weight: bold;
+ 	color: #222;
+ }
+
+ .ashiish-author {
+ 	display: flex;
+ 	align-items: center;
+ 	padding: 0 0.5rem;
+ }
+
+ .ashiish-author span {
+ 	font-size: 0.9rem;
+ }
+
+ .author-avatar {
+ 	width: 30px;
+ 	height: 30px;
+ 	margin-right: 0.5rem;
+ }
+
+ .author-avatar img {
+ 	border-radius: 40px;
+ }
+
+ .post-meta {
+ 	margin: 0 1rem;
+ 	padding-top: 1rem;
+ 	border-top: 1px solid #d3d3d3;
+ }
+
+ .post-meta span {
+ 	border: 1px solid #d3d3d3;
+ 	padding: 0.4rem 0.5rem;
+ 	width: 30px;
+ 	height: 30px;
+ 	border-radius: 40px;
+ }
+
+ .post-meta span i {
+ 	color: #f44336;
+ }
+
+ .post-media {
+ 	position: relative;
+ }
+
+ .post-media img {
+ 	position: relative;
+ 	width: 100%;
+ 	height: 500px;
+ }
+
+ .ashish-post-body {
+ 	position: relative;
+ }
+
+ .ashish-entry-content {
+ 	position: absolute;
+ 	top: 60%;
+
+ }
+
+ .ashish-post-content {
+ 	border-right: 1px solid #ecf0f1;
+ }
+
+ .ashish-post-content div {
+ 	padding-left: 1rem;
+ }
+
+ .post-head .entry-title {
+ 	font-size: 2rem;
+ 	letter-spacing: 2px;
+ 	word-spacing: 5px;
+ 	color: #ecf0f1;
+ }
+
+ .read-more {
+ 	margin-top: 2rem; 
+ }
+
+ .read-more a {
+ 	padding: 0.6rem;
+ 	border: 1px solid #ecf0f1;
+ 	color: #ecf0f1;
+ 	text-decoration: none;
+ }
+
+ .read-more a:hover {
+ 	color: #ecf0f1;
+ }
+
+ .ashish-meta-category span {
+ 	padding: 0.3rem 0.5rem;
+ 	color: #ecf0f1;
+ 	font-size: 14px;
+ 	border-radius: 2px;
+ 	background: rgba(38,166,154,1);
+ }
+
+ .meta-data {
+ 	color: #ecf0f1;
+ 	margin-top: 0.5rem;
+ }
+
+ .post-date span {
+ 	font-weight: bold;
+ 	color: rgba(38,166,154 ,1);
+ 	font-size: 2rem;
+ }
+
+ .post-date p {
+ 	margin-top: -5px;
+ 	margin-bottom: 0;
+ 	font-size: 12px;
+ }
+
+ .author-ashish {
+ 	margin-top: 0.3rem;
+ 	font-size: 12px;
+ }
+
+ .trending-blog {
+ 	padding-top: 2rem;
+ 	padding-bottom: 2rem;
+ 	background: rgba(38,166,154 ,0.07);
+ }
+
+ .trending-post-media {
+ 	position: relative;
+ 	box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+ }
+
+ .trending-post-media img {
+ 	width: 100%;
+ }
+
+ .trending-post-date {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	background: rgba(38,166,154 ,0.5);
+ 	color: #FFF;
+ 	padding: 0 0.5em;
+ }
+
+ .trending-post-date span {
+ 	font-weight: bold;
+ 	font-size: 14px;
+ }
+
+ .trending-post-date p {
+ 	text-align: center;
+ 	margin-bottom: 0;
+ 	font-size: 12px;
+ }
+
+ .post-cat {
+ 	position: absolute;
+ 	bottom: 0;
+ 	right: 0;
+ 	background: rgba(38,166,154 ,1);
+ 	padding: 0.1em 0.3em;
+ 	color: #FFF;
+ 	font-size: 12px;
+ 	letter-spacing: 1px;
+ 	text-transform: uppercase;
+ }
+
+ .trending-content {
+ 	color: #607D8B;
+ }
+
+ .trending-content p {
+ 	font-size: 15px;
+ }
+
+ .trending-head h2 {
+ 	font-size: 1.2em;
+ }
+
+ .trending-read-more {
+ 	position: relative;
+ 	width: 100%;
+ }
+
+
+ .ashish-blog-archive {
+ 	margin-top: 2em;
+ 	margin-bottom: 2em;
+ }
+
+ .ashish-archive-wrap {
+ 	margin-bottom: 2em;
+ }
+
+ .ashish-archive-item {
+ 	background: #FFF;
+ 	border-radius: 5px;
+ 	box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+ 	width: 90%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .archive-media {
+ 	position: relative;
+ }
+
+ .archive-post-thumb {
+ 	width: 100%;
+ }
+
+ .archive-content {
+ 	padding: 1.5em 1em;
+ 	color: #607D8B;
+ }
+
+ .archive-entry-title {
+ 	position: relative;
+ }
+
+ .archive-entry-title h2 {
+ 	font-size: 1.3em;
+ 	line-height: 1.5;
+ }
+
+ .archive-excerpt p {
+ 	font-size: 14px;
+ 	letter-spacing: 1px;
+ 	word-spacing: 1px;
+ }

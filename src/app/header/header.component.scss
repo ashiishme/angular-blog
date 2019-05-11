@@ -1,0 +1,135 @@
+.position-fixed {
+ 	z-index: 9999;
+ }
+
+ .ashish-header {
+ 	position: fixed;
+ 	width: 25%;
+ 	height: 100%;
+ 	background: #f44336;
+ 	background: -webkit-linear-gradient(100deg, #f44336, #240b36);
+ 	background: linear-gradient(100deg, #f44336, #240b36);
+ 	color: #ecf0f1;
+ 	text-align: center;
+ 	overflow-y: auto;
+ }
+
+ .ashish-brand {
+ 	margin: 2em 0;
+ }
+
+ .ashish-profile {
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 30%;
+ }
+
+ .ashish-profile img {
+ 	width: 100%;
+ 	height: 100%;
+ 	border-radius: 100%;
+ 	border: 5px solid #f44336;
+ }
+
+
+ .ashish-info {
+ 	margin-top: 1em;
+ }
+
+ .ashish-info h1 {
+ 	margin-bottom: 0.3em;
+ 	letter-spacing: 1px;
+ 	word-spacing: 1px;
+ 	font-size: 140%;
+ 	font-weight: bold;
+ }
+
+ .ashish-info span {
+ 	font-size: 86%;
+ }
+
+
+ .ashish-nav-list li {
+ 	cursor: pointer;
+ 	-webkit-transition: all 0.3s ease-out;
+ 	-moz-transition: all 0.3s ease-out;
+ 	-o-transition: all 0.3s ease-out;
+ 	transition: all 0.3s ease-out;
+ }
+
+ .ashish-nav-list li a {
+ 	padding: 1rem 0;
+ }
+
+
+ .ashish-nav-list li:hover {
+ 	color: #f44336;
+ }
+
+ .ashish-nav-list .active {
+ 	color: #f44336;
+ }
+
+ .ashish-nav-list li:hover a::before, .ashish-nav-list .active a::before {
+ 	content: "{";
+ 	font-family: FontAwesome;
+ 	font-style: normal;
+ 	font-weight: normal;
+ 	text-decoration: inherit;
+ 	padding-right: 0.5rem; 
+ }
+
+ .ashish-nav-list li:hover a::after, .ashish-nav-list .active a::after {
+ 	content: "}";
+ 	font-family: FontAwesome;
+ 	font-style: normal;
+ 	font-weight: lighter;
+ 	text-decoration: inherit;
+ 	padding-left: 0.5rem; 
+ }
+
+ .ashish-nav-list li a {
+ 	color: inherit;
+ }
+
+
+ .ashish-nav-item a {
+ 	display: block;
+ 	text-transform: uppercase;
+ 	font-size: 1rem;
+ 	letter-spacing: 2px;
+ }
+
+ .nav-social {
+ 	margin-top: 1rem;
+ 	margin-bottom: 1rem;
+ }
+
+ .nav-social-list li {
+ 	color: #f44336;
+ 	padding: 0.5rem;
+ 	display: inline-block;
+ }
+
+ .nav-social-list li a {
+ 	color: inherit;
+ }
+
+ .nav-footer {
+ 	margin-top: 1rem;
+ }
+
+ .nav-footer-text p {
+ 	font-size: 90%;
+ 	margin-bottom: 0.2rem;
+ 	color: #f44336;
+ }
+
+ @media only screen and (max-width: 768px) {
+
+ 	.ashish-header {
+ 		display: none;
+ 		width: 70%;
+ 	}
+
+ }

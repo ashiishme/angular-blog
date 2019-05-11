@@ -1,0 +1,14 @@
+<div *ngIf="single" class="container">
+<article class="ashiish-single-post">
+	<figure class="single-thumb">
+		<img src="{{single[0].featured_image_src}}" class="img-fluid">
+	</figure>
+	<div class="single-title">		
+		<h1 [innerHTML]="single[0].title.rendered"></h1>
+	</div>
+	<div class="single-content">
+		<p [innerHTML]="single[0].content.rendered"></p>
+	</div>
+</article>
+</div>
+<br>

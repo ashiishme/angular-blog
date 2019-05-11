@@ -1,0 +1,25 @@
+<div class="container my-4">
+	<div class="page-head">
+		<div class="page-title">
+			<h3><span>B</span>log</h3>
+		</div>
+	</div>
+	<div class="page-content">
+		<div class="row">
+			<div *ngFor="let post of posts;" class="col-md-6">
+				<article id="post-{{post.id}}" class="ashiish-blog-item">
+					<figure class="post-thumb">	
+						<a routerLink="{{post.slug}}">
+							<img src="{{post.featured_image_src}}" class="img-fluid">
+						</a>
+					</figure>
+					<div class="post-title">
+						<a routerLink="{{post.slug}}">
+							<h2 class="entry-title" [innerHTML]="post.title.rendered"></h2>
+						</a>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+</div>

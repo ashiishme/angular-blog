@@ -1,0 +1,65 @@
+<div class="container my-4">
+	<div class="page-head">
+		<div class="page-title">
+			<h3><span>C</span>ontact</h3>
+		</div>
+	</div>
+
+	<div class="page-content">
+		<div class="row">
+			<div class="col">
+				<p>Send direct message to my Facebook Page: <a href="https://www.facebook.com/ashiish.me/">ashiish.me</a></p>
+				<p>or contact me via email at: <span id="eaddr"></span></p>
+				
+				<!-- <form id="contactForm" #contactForm="ngForm">
+					<div class="form-row">
+						<div class="form-group col">
+							<label for="fullname">Full Name</label>
+							<input type="text" class="form-control" id="fullname" name="fullname" [(ngModel)]="contact.contact_fullname" #fullname="ngModel" required>
+							<div *ngIf="fullname.invalid && (fullname.dirty || fullname.touched)" class="contact-error">
+								<span *ngIf="fullname.errors && fullname.errors.required">
+									Fullname is required.
+								</span>
+							</div>
+						</div>
+
+						<div class="form-group col">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" name="email" [(ngModel)]="contact.contact_email" #email="ngModel" required pattern="^(([^<>()\[\]\\.,;:\s@']+(\.[^<>()\[\]\\.,;:\s@']+)*)|('.+'))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$">
+							<div *ngIf="email.invalid && (email.dirty || email.touched)" class="contact-error">
+								<span *ngIf="email.errors && email.errors.required">
+									Email is required.
+								</span>
+								<span *ngIf="email.errors && email.errors.pattern">
+									Invalid email format.
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" name="message" [(ngModel)]="contact.contact_message" #message="ngModel" required></textarea>
+						<div *ngIf="message.invalid && (message.dirty || message.touched)" class="contact-error">
+							<span *ngIf="message.errors && message.errors.required">
+								Please write something.
+							</span>
+						</div>
+					</div>
+
+					<small>Please don't test or spam the contact form. The form will collect user data to filter and control spam. If you don't agree, contact me via Facebook page: <a href="https://www.facebook.com/ashiish.me" target="_blank">ashiish.me</a></small>
+
+					<br>
+					<br>
+
+					<p *ngIf="success" class="msg-status success">{{status_msg}}</p>
+					<p *ngIf="failed" class="msg-status failed">{{status_msg}}</p>
+
+					<button id="contactBtn" type="button" class="contact-btn" (click)="contact_me(); contactForm.reset()" [disabled]="!contactForm.form.valid">Send Message</button>
+
+				</form> -->
+
+			</div>
+		</div>
+	</div>
+</div>

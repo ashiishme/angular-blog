@@ -1,1 +1,107 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* STYLE CSS 
+ *Author: Ashish Yadav
+ */
+
+ /* RESETS */
+
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ body {
+ 	font-family: 'Work Sans', sans-serif;
+ 	background: #FFF;
+ }
+
+ ul, ol {
+ 	list-style: none;
+ }
+
+ a, a:active, a:focus, a:hover {
+ 	color: #5C6BC0;
+ 	text-decoration: none;
+ }
+
+ figure {
+ 	margin: 0;
+ }
+
+ /* COMMONS */
+
+ #main {
+ 	position: relative;
+ 	width: 100%;
+ }
+
+ .col-sm-3 {
+ 	padding-left: 0;
+ }
+
+ .offset-3 {
+    margin-left: 25%;
+ }
+
+ .ashiish-sidebar {
+ 	width: 100%;
+ }
+
+ .ashiish-section {
+ 	position: relative;
+ 	width: 100%;
+ }
+
+ .menu-btn {
+ 	display: none;
+ }
+
+ .menu-btn span {
+ 	color: #FFF;
+ 	font-size: 1.5rem;
+ }
+
+ .mobile-header {
+ 	display: none;
+ 	background: #f44336;
+ 	background: -webkit-linear-gradient(100deg, #f44336, #240b36);
+ 	background: linear-gradient(100deg, #f44336, #240b36);
+ 	width: 100%;
+ 	padding: 0.4rem 1rem;
+ }
+
+ .position-fixed {
+ 	z-index: 2;
+ }
+
+ .mobile-header span {
+ 	color: #FFF;
+ 	font-size: 1.5rem;
+ }
+
+ .show-mobile-menu {
+ 	display: block !important;
+ }
+
+ @media only screen and (max-width: 768px) {
+
+ 	.menu-btn {
+ 		text-align: right;
+ 		padding-right: 1rem;
+	 	display: block;
+	 }
+
+ 	.mobile-header {
+ 		display: block;
+ 	}
+
+ 	.offset-3 {
+ 		margin-left: 0;
+ 	}
+
+ 	.ashiish-section {
+ 		width: 100%;
+ 	}
+
+ }

@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Download <a target="_blank" href="https://github.com/ashiishme/wordpress-server">WordPress server</a> from my `wordpress-server` repository.
 
-Install WordPress on your server and complete all setup.
+<a href="https://wordpress.org/download/">Download</a> & Install WordPress on your server and complete all setup.
 
 Upload `wordpress-server` repository in your WordPress theme directory. 
 `your-wp-dir > wp-content > themes`

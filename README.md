@@ -37,4 +37,6 @@ Upload `wordpress-server` repository in your WordPress theme directory.
 
 Activate this theme.
 
+Open `index.php` file and update the `header location url` to your own application url.
+
 In Angular`blog-api.service` file. Update the `URL` for your api.

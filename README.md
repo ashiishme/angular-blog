@@ -40,3 +40,7 @@ Activate this theme.
 Open `index.php` file and update the `header location url` to your own application url.
 
 In Angular`blog-api.service` file. Update the `URL` for your api.
+
+## WordPress Rest API
+
+https://developer.wordpress.org/rest-api/

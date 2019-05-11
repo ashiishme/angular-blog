@@ -28,13 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Setup WordPress Server
 
-Download <a target="_blank" href="https://github.com/ashiishme/wordpress-server">WordPress server</a> from my wordpress-server repository.
+Download <a target="_blank" href="https://github.com/ashiishme/wordpress-server">WordPress server</a> from my `wordpress-server` repository.
 
 Install WordPress on your server and complete all setup.
 
-Upload wordpress-server repository in your WordPress theme directory. 
-- `your-wp-dir > wp-content > themes`
+Upload `wordpress-server` repository in your WordPress theme directory. 
+`your-wp-dir > wp-content > themes`
 
 Activate this theme.
 
-In Angular blog-api.service file. Update the URL for your api.
+In Angular`blog-api.service` file. Update the `URL` for your api.
